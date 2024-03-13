@@ -1,0 +1,3 @@
+Batchsize = 64, alpha = 0.010000, beta = 0.100000, epoch_num = 15
+Calculate TFIDF-feature for dataset
+Calculate TFIDF-feature for dataset
