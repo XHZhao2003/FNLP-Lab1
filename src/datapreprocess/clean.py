@@ -39,7 +39,7 @@ def remove_nonletter(content):
 train_filepath = '../../data/train.csv'
 test_filepath = '../../data/test.csv'
 dst_train = '../../data/train_cleaned.json'
-dst_test = '../../data/test_cleaned.json'
+dst_test = '../../data/test.json'
 dst_vocabulary = '../../data/vocab.json'
 
 train_lemma = []
