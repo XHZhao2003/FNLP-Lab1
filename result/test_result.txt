@@ -1,0 +1,140 @@
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.866
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.872     0.873     0.872      1899
+           1      0.941     0.915     0.927      1954
+           2      0.822     0.834     0.828      1874
+           3      0.832     0.844     0.838      1873
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.866     0.866      7600
+weighted avg      0.868     0.867     0.867      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.871     0.874     0.872      1894
+           1      0.943     0.918     0.930      1952
+           2      0.822     0.832     0.827      1877
+           3      0.833     0.843     0.838      1877
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.867     0.867      7600
+weighted avg      0.868     0.867     0.868      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.872     0.874     0.873      1895
+           1      0.941     0.915     0.927      1954
+           2      0.823     0.833     0.828      1877
+           3      0.833     0.844     0.838      1874
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.866     0.867      7600
+weighted avg      0.868     0.867     0.867      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.872     0.876     0.874      1890
+           1      0.942     0.916     0.929      1954
+           2      0.823     0.830     0.826      1885
+           3      0.832     0.845     0.839      1871
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.867     0.867      7600
+weighted avg      0.868     0.867     0.868      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.873     0.874     0.873      1897
+           1      0.941     0.916     0.928      1952
+           2      0.821     0.832     0.826      1875
+           3      0.833     0.844     0.838      1876
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.866     0.867      7600
+weighted avg      0.868     0.867     0.867      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.866
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.872     0.875     0.873      1894
+           1      0.943     0.915     0.929      1957
+           2      0.822     0.830     0.826      1880
+           3      0.831     0.845     0.838      1869
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.866     0.866      7600
+weighted avg      0.868     0.867     0.867      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.868, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.873     0.875     0.874      1894
+           1      0.942     0.916     0.929      1953
+           2      0.823     0.833     0.828      1877
+           3      0.834     0.844     0.839      1876
+
+    accuracy                          0.868      7600
+   macro avg      0.868     0.867     0.867      7600
+weighted avg      0.868     0.868     0.868      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.868, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.871     0.875     0.873      1890
+           1      0.943     0.916     0.929      1955
+           2      0.823     0.834     0.829      1873
+           3      0.835     0.843     0.839      1882
+
+    accuracy                          0.868      7600
+   macro avg      0.868     0.867     0.867      7600
+weighted avg      0.868     0.868     0.868      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.871     0.873     0.872      1896
+           1      0.939     0.917     0.928      1946
+           2      0.824     0.832     0.828      1883
+           3      0.833     0.844     0.839      1875
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.866     0.867      7600
+weighted avg      0.867     0.867     0.867      7600
+
+Calculate TFIDF-feature for dataset
+Testing Metric: Accrucy = 0.867, F1 = 0.867
+Metric by sklearn:
+              precision    recall  f1-score   support
+
+           0      0.873     0.875     0.874      1895
+           1      0.944     0.915     0.929      1959
+           2      0.821     0.832     0.826      1875
+           3      0.832     0.844     0.838      1871
+
+    accuracy                          0.867      7600
+   macro avg      0.867     0.867     0.867      7600
+weighted avg      0.868     0.867     0.868      7600
+

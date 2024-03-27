@@ -1,12 +1,15 @@
 import numpy as np
 
 class LogLinearModel:
-    def __init__(self, feat_dim, label_dim, alpha = 1e-4, beta = 0.1) -> None:
+    def __init__(self, feat_dim = 1024, label_dim = 4, alpha = 1e-4, beta = 0.1, weight_decay=1) -> None:
         self.feat_dim = feat_dim
         self.label_dim = label_dim
         self.alpha = alpha
         self.weights = np.random.rand(feat_dim, label_dim)        
         self.beta = beta
+        self.gamma = weight_decay
+        
+        self.decayed_lr = self.alpha
                     
     def softmax(self, vector):
         score = np.exp(vector)
@@ -29,7 +32,8 @@ class LogLinearModel:
         for i in range(batchsize):
             loss.append(- np.log(pred[i][label[i]]))
         loss = sum(loss) / batchsize
-        loss += 0.5 * self.beta * np.linalg.norm(self.weights.flatten())
+        reg_loss = 0.5 * self.beta * np.linalg.norm(self.weights.flatten())
+        loss += reg_loss
         
         # compute negative gradient
         neg_grad = np.zeros((self.feat_dim, self.label_dim))
@@ -46,12 +50,18 @@ class LogLinearModel:
                 neg_grad[i][r] -= self.weights[i][r] * self.beta
         
         # update weights
-        step = np.multiply(neg_grad, np.array(self.alpha))
+        step = np.multiply(neg_grad, np.array(self.decayed_lr))
         self.weights += step
-        
-        return loss
+                
+        return loss, reg_loss
     
     def predict(self, batch):
         result = np.dot(batch, self.weights)    
         return np.array([self.softmax(x) for x in result])
 
+    def save(self, path):
+        np.savetxt(path, self.weights)
+    
+    def load(self, path):
+        self.weights = np.loadtxt(path)
+        
